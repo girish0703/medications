@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.page-container {
+    padding: 25px;
+}
+
+.page-title {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.title-name {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #868787;
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+
+.info {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hr-line {
+    border-bottom: 1px solid grey;
+    padding: 2px;
+    border-top: 1px solid grey;
+}
+
+.med-name {
+    font-family: "Times New Roman";
+    font-size: 26px;
+    font-weight: 600;
+    color: #474e54;
+    margin-bottom: 8px;
+}
+
+.sections-container {
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 16px;
+    padding: 10px 0px 20px 0px;
+}
+
+.section-1 {
+    width: 30%;
+    border-right: 1px solid lightgrey;
+    padding: 0px 16px 0px 0px;
+}
+
+.section-2 {
+    width: 40%;
+    border-right: 1px solid lightgrey;
+    padding: 0px 16px 0px 16px;
+}
+
+.section-3 {
+    width: 30%;
+    padding: 0px 0px 0px 16px;
+}
+
+.icon-div {
+    text-align: center;
+    padding: 20px;
+}
+
+.icon {
+    font-size: 80px;
+}
+
+.sub-head {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    color: #9b9d9e;
+    margin-bottom: 0;
+}
+
+.reason {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-top: -2px;
+}
+
+.note {
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
+    margin-top: -2px;
+}
+
+.side-effect {
+    display: flex;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: -12px;
+}
+
+.effect-img {
+    width: 30px;
+    height: 30px;
+    color: black;
+    margin-left: 14px;
+    margin-right: 10px;
+}
+
+.effect-name {
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+    margin-top: -5px;
+}
+
+.margins {
+    margin-top: 20px;
+}
+
+.symptoms {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 0;
+    font-style: italic;
+}
