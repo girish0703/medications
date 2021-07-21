@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 .page-container {
-    padding: 25px;
+    padding: 30px;
 }
 
 .page-title {
     font-family: "Roboto";
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -23,20 +23,20 @@
 }
 
 .logo {
-    font-size: 50px;
+    font-size: 40px;
     margin-right: 10px;
 }
 
 .heading {
     font-family: "Roboto";
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
     margin-bottom: 0;
 }
 
 .title-name {
     font-family: "Roboto";
-    font-size: 18px;
+    font-size: 16px;
     color: #868787;
     font-weight: 500;
     margin-bottom: -5px;
@@ -44,7 +44,7 @@
 
 .info {
     font-family: "Roboto";
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -56,7 +56,7 @@
 
 .med-name {
     font-family: "Times New Roman";
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     color: #474e54;
     margin-bottom: 8px;
@@ -88,16 +88,16 @@
 
 .icon-div {
     text-align: center;
-    padding: 20px;
+    padding: 25px;
 }
 
 .icon {
-    font-size: 70px;
+    font-size: 65px;
 }
 
 .sub-head {
     font-family: "Roboto";
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     color: #9b9d9e;
     margin-bottom: 0;
@@ -105,7 +105,7 @@
 
 .reason {
     font-family: "Roboto";
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     color: black;
     margin-top: -2px;
@@ -113,7 +113,7 @@
 
 .note {
     font-family: "Roboto";
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     color: black;
     margin-top: -2px;
@@ -166,10 +166,10 @@
 
 .effect-name {
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: black;
-    margin-top: -5px;
+    margin-top: 0px;
 }
 
 .margins {
@@ -178,7 +178,7 @@
 
 .symptoms {
     font-family: "Roboto";
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: black;
     margin-bottom: 0;
