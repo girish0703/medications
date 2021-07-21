@@ -5,6 +5,7 @@ let medicineDetails = [{
         icon: "fa-tablets",
         reason: "For treatment of lower back pain.",
         notes: "1 tablet by mouth 4 times a day with food every 4 hours",
+        timings: ["8:00AM", "12:00PM", "4:00PM", "8:00PM"],
         sideEffects: [{
                 effectUrl: "https://uxwing.com/wp-content/themes/uxwing/download/15-healthcare-and-medical/headache.png",
                 effect: "Headache"
@@ -21,6 +22,7 @@ let medicineDetails = [{
         icon: "fa-syringe",
         reason: "Reduce blood pressure.",
         notes: "1 injection at bedtime (Inject 10 ml vial under the skin as directed for 28 days inject 25 units under the skin at bedtime do not mix with other insulins.)",
+        timings: ["Bedtime"],
         sideEffects: [{
                 effectUrl: "https://uxwing.com/wp-content/themes/uxwing/download/15-healthcare-and-medical/headache.png",
                 effect: "Headache"
@@ -41,6 +43,7 @@ let medicineDetails = [{
         icon: "fa-capsules",
         reason: "For treatment of symptoms of an enlarged prostate.",
         notes: "3 capsules before bed",
+        timings: ["Bedtime"],
         sideEffects: [{
                 effectUrl: "https://uxwing.com/wp-content/themes/uxwing/download/15-healthcare-and-medical/headache.png",
                 effect: "Headache"
@@ -116,6 +119,30 @@ function createAndAppendItem(details) {
     notesEl.classList.add("note")
     notesEl.textContent = details.notes
     section2El.appendChild(notesEl)
+
+    let timeContainer = document.createElement("div");
+    timeContainer.classList.add("time-container");
+    let dayEl = document.createElement("i");
+    dayEl.classList.add("fas", "fa-sun", "symbol");
+    timeContainer.appendChild(dayEl)
+    let boxEl = document.createElement("div")
+    boxEl.classList.add("box-card")
+
+    function createAndAppendTime(time) {
+        let timeEl = document.createElement("p")
+        timeEl.classList.add("time")
+        timeEl.textContent = time
+        boxEl.appendChild(timeEl)
+    }
+    for (let time of details.timings) {
+        createAndAppendTime(time)
+    }
+    timeContainer.appendChild(boxEl)
+    let nightEl = document.createElement("i");
+    nightEl.classList.add("fas", "fa-moon", "symbol");
+    timeContainer.appendChild(nightEl)
+
+    section2El.appendChild(timeContainer)
 
     let section3El = document.createElement("div")
     section3El.classList.add("section-3")
