@@ -6,7 +6,7 @@
 
 .page-title {
     font-family: "Roboto";
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -29,14 +29,14 @@
 
 .heading {
     font-family: "Roboto";
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 0;
 }
 
 .title-name {
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 18px;
     color: #868787;
     font-weight: 500;
     margin-bottom: -5px;
@@ -44,7 +44,7 @@
 
 .info {
     font-family: "Roboto";
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 500;
 }
 
@@ -56,7 +56,7 @@
 
 .med-name {
     font-family: "Times New Roman";
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 600;
     color: #474e54;
     margin-bottom: 8px;
@@ -92,12 +92,12 @@
 }
 
 .icon {
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .sub-head {
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     color: #9b9d9e;
     margin-bottom: 0;
@@ -105,7 +105,7 @@
 
 .reason {
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     color: black;
     margin-top: -2px;
@@ -113,10 +113,41 @@
 
 .note {
     font-family: "Roboto";
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 500;
     color: black;
     margin-top: -2px;
+}
+
+.time-container {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.box-card {
+    width: 100%;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px 8px 2px 3px;
+    justify-content: space-between;
+}
+
+.time {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.symbol {
+    font-size: 18px;
 }
 
 .side-effect {
@@ -135,7 +166,7 @@
 
 .effect-name {
     font-family: "Roboto";
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 600;
     color: black;
     margin-top: -5px;
@@ -147,7 +178,7 @@
 
 .symptoms {
     font-family: "Roboto";
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     color: black;
     margin-bottom: 0;
